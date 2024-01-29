@@ -2,7 +2,7 @@
 An open-source and customizable local survey service!
 Certainly! Below is an extended version of the README, including a guide on setting up a configuration file (`config.js`) and a basic guide on setting up a server using Node.js and Express.js.
 
-```markdown
+
 # Survey Form Application
 
 This project contains a survey form application created using HTML, CSS, and JavaScript. The survey form includes various stages and customizable form fields.
