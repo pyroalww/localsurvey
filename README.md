@@ -1,6 +1,6 @@
 # localsurvey
 An open-source and customizable local survey service!
-Certainly! Below is an extended version of the README, including a guide on setting up a configuration file (`config.js`) and a basic guide on setting up a server using Node.js and Express.js.
+
 
 
 # Survey Form Application
@@ -105,4 +105,4 @@ This project is open-source, and we welcome your contributions. To contribute, f
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 ```
 
-Feel free to further customize the text and add more detailed instructions based on your project's specific needs.
+The project is currently under development. Server testing has not been done yet.
