@@ -1,0 +1,152 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.light {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.dark {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* styles.css */
+
+/* Diğer stiller aynı kalsın... */
+
+.form-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prev-button,
+.next-button,
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.prev-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.next-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.submit-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Diğer stiller aynı kalsın... */
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.checkbox-container label {
+    margin-right: 10px;
+}
+
+/* Dark modda yazı rengini değiştirme */
+.dark {
+    color: #ffffff;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+h5 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* İlerleme Çubuğu Stilleri */
+.progress-container {
+    width: 100%;
+    text-align: center;
+}
+
+.progress-bar {
+    width: 0;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+/* Animasyon Stilleri */
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slideIn {
+    animation: slideIn 0.5s ease-out;
+}
